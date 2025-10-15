@@ -27,11 +27,13 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "react-native": "./dist/index.js",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     },
     "./error-tracking": {
       "types": "./dist/error-tracking/index.d.ts",
+      "react-native": "./dist/error-tracking/index.js",
       "require": "./dist/error-tracking/index.js",
       "import": "./dist/error-tracking/index.mjs"
     },
