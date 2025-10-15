@@ -82,7 +82,7 @@ function resolvePostHogConfig(posthogProvidedConfig: PostHogNextConfig): PostHog
     personalApiKey,
     envId,
     host: host ?? 'https://us.posthog.com',
-    verbose: verbose ?? true,
+    verbose: verbose ?? false,
     sourcemaps: {
       enabled: sourcemaps.enabled ?? process.env.NODE_ENV == 'production',
       project: sourcemaps.project,
